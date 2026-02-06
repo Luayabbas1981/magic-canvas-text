@@ -19,14 +19,16 @@ yarn add magic-text-canvas
 ```
 
 ## 🚀 Usage
-Import
-import { initializeText } from "magic-text-canvas";
-
 ### HTML
 
 Create a container element where the canvas will be injected:
-
+```bash
 <div class="text-con"></div>
+```
+
+```bash
+import { initializeText } from "magic-text-canvas";
+```
 
 ### JS
 ```bash
