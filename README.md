@@ -1,6 +1,6 @@
-# ✨ Magic Text Canvas
+# ✨ Magic Canvas Text
 
-**Magic Text Canvas** is a lightweight npm library for rendering animated, interactive particle-based text using the HTML5 canvas.  
+**Magic Canvas Text** is a lightweight npm library for rendering animated, interactive particle-based text using the HTML5 canvas.  
 It supports mouse and touch interactions over the text, gradients, multiple animation start modes, and mobile-optimized behavior.
 
 Ideal for landing pages, hero sections, and playful UI elements.
@@ -12,10 +12,10 @@ Ideal for landing pages, hero sections, and playful UI elements.
 Install the package via npm:
 
 ```bash
-npm install magic-text-canvas
+npm install magic-canvas-text
 ````
 ```bash
-yarn add magic-text-canvas
+yarn add magic-canvas-text
 ```
 
 ## 🚀 Usage
@@ -27,7 +27,7 @@ Create a container element where the canvas will be injected:
 ```
 
 ```bash
-import { initializeText } from "magic-text-canvas";
+import { initializeText } from "magic-canvas-text";
 ```
 
 ### JS
