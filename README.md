@@ -96,8 +96,13 @@ magicText.destroy();
 
 - Separate mobile font size configuration
 
-### NPM 
-https://www.npmjs.com/package/@luay_abbas/magic-text
+### npm
+
+[Magic canvas text...](https://www.npmjs.com/package/magic-canvas-text)
+
+### Portfolio
+
+[Portfolio...](https://luay-portfolio.interflowcode.de/)
 
 ### 📄 License
 
