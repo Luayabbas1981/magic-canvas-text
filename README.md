@@ -47,7 +47,7 @@ initializeText({
   colorOne: "#ff0000",
   colorTwo: "#00ff00",
   colorThree: "#0000ff",
-  startMode: "auto",
+  startMode: "random",
 });
 ```
 ### ## 🔧 Configuration Options
