@@ -1,7 +1,7 @@
 # ✨ Magic Text Canvas
 
 **Magic Text Canvas** is a lightweight npm library for rendering animated, interactive particle-based text using the HTML5 canvas.  
-It supports mouse and touch interactions, gradients, multiple animation start modes, and mobile-optimized behavior.
+It supports mouse and touch interactions over the text, gradients, multiple animation start modes, and mobile-optimized behavior.
 
 Ideal for landing pages, hero sections, and playful UI elements.
 
