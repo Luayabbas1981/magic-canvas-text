@@ -98,6 +98,10 @@ magicText.destroy();
 - Optimized interaction radius for performance
 
 - Separate mobile font size configuration
+- 
+### Demo
+
+[Magic canvas text...](https://github.com/Luayabbas1981/magic-text)
 
 ### npm
 
