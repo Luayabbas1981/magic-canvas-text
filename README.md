@@ -60,7 +60,7 @@ initializeText({
 | `fontSizeMobile` | `number` | ✅ Yes | Required for mobile rendering |
 | `textColor` | `string` | ⚠️ Conditional | Defaults to `#000000` |
 | `bgColor` | `string` | ❌ No | Defaults to `#ffffff` |
-| `effectColorApplied` | `boolean` | ⚠️ Recommended | Enables hover color effect |
+| `effectColorApplied` | `boolean` | ⚠️  | Enables hover color effect |
 | `effectColor` | `string` | ⚠️ Conditional | Required when `effectColorApplied === true` |
 | `effectRadius` | `number` | ❌ No | Defaults to `80` (mobile capped at `100`) |
 | `duration` | `number` | ❌ No | Defaults internally to `0.05` |
