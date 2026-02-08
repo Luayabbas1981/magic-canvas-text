@@ -40,10 +40,10 @@ Create a container element where the canvas will be injected:
 ```js
 import { initializeText } from "magic-canvas-text";
 
-const element = document.querySelector(".your-class");
+const something  = document.querySelector(".your-class");
 
-const magicText = initializeText({
-  element,
+ initializeText({
+  element: something,
   text: "Magic Text",
   fontSize: 100,
   fontSizeMobile: 30,
