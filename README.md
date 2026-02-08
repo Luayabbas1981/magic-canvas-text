@@ -105,26 +105,6 @@ This makes the API:
 
 ---
 
-## 🧹 Cleanup
-
-Each initialization returns an instance with a `destroy()` method.
-
-```js
-const magicText = initializeText({ element, text: "Hello" });
-
-// later
-magicText.destroy();
-```
-
-This removes:
-
-* the canvas
-* animation loop
-* event listeners
-* internal instance reference
-
----
-
 ## 📱 Mobile Support
 
 * Touch interaction support
