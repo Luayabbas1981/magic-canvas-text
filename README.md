@@ -28,7 +28,7 @@ yarn add magic-canvas-text
 Create a container element where the canvas will be injected:
 
 ```html
-<div class="text-con"></div>
+<div class="your-class"></div>
 ```
 
 > ⚠️ The container should be empty and have a defined width & height.
@@ -40,10 +40,10 @@ Create a container element where the canvas will be injected:
 ```js
 import { initializeText } from "magic-canvas-text";
 
-const something  = document.querySelector(".your-class");
+const canavsTextContainer  = document.querySelector(".your-class");
 
- initializeText({
-  element: something,
+ const myEffect = initializeText({
+  element: canavsTextContainer,
   text: "Magic Text",
   fontSize: 100,
   fontSizeMobile: 30,
@@ -112,39 +112,10 @@ This makes the API:
 * Separate mobile font sizing
 
 ---
-
-## 🧩 Framework Usage
-
-### React
-
-```js
-const ref = useRef(null);
-
-useEffect(() => {
-  const instance = initializeText({
-    element: ref.current,
-    text: "React Magic",
-  });
-
-  return () => instance?.destroy();
-}, []);
-```
-
-### Vue
-
-```js
-const title = ref(null);
-
-onMounted(() => {
-  initializeText({
-    element: title.value,
-    text: "Vue Magic",
-  });
-});
-```
+## Cleanup
+myEffect.destroy()
 
 ---
-
 ## 🌐 Demo
 
 [Magic Canvas Text Demo](https://luayabbas1981.github.io/magic-text/)
